@@ -7,11 +7,7 @@
 
 import Foundation
 
-let james = Musicians() // james Musiciasn sınıfından oluşturulan bir obje
-//james.age = 50
-//james.name = "James Hetfield"
-//james.instrument = "Guitar"
-
-print(james.name)
-
+let james = Musicians(nameInit: "James", ageInit: 50, instrumentInit: "Guitar", typeInit : .Vocalist )
+print(james.age)
+print(james.type)
 
