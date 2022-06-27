@@ -17,6 +17,16 @@ let kirk = SuperMusician(nameInit: "Kirk", ageInit: 55, instrumentInit: "Guitar"
 kirk.sing()
 //kirk.sing2()
 
+
+
+//Erişilebilirlik seviyeleri
+//Private
+//FilePrivate
+//Internal
+//Public
+//Open
+ //Not: Public ve Open bir kütüphane yazmıyorsak genellikle kullanılmaz!
+
  
 
  
